@@ -1,0 +1,45 @@
+
+.footer {
+    background-color: #fff6f6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 40vh;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    text-align: center;
+    flex: 1;
+}
+
+.col h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #c92127;
+}
+
+.col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.col li {
+    margin: 5px 0;
+}
+
+.col a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: border-bottom 0.3s ease;
+}
+
+.col a:hover {
+    border-bottom: 1px solid white;
+}

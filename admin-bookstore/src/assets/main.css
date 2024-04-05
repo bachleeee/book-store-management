@@ -1,0 +1,143 @@
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #333;
+    height: 100%;
+    padding-top: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+  }
+  
+  .logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.3s;
+    border-bottom: 1px solid #555;
+    /* Thêm đường viền dưới */
+  }
+  
+  nav li:last-child {
+    border-bottom: none;
+    /* Loại bỏ đường viền dưới của phần tử cuối cùng */
+  }
+  
+  nav li:hover {
+    background-color: #555;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav i {
+    margin-right: 8px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  .login-page {
+    background-color: #e5f6f2;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    background-color: #fffbfb;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+}
+
+label {
+    font-weight: bold;
+    color: #000000;
+}
+
+.form-control {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.btn-dark {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.btn-dark:hover {
+    background-color: #23282d;
+}
+
+.delete-icon {
+    color: red;
+    cursor: pointer;
+}
+.modify-icon {
+    color: yellow;
+    cursor: pointer;
+}
+
+.product-name {
+  font-weight: bold;
+  color: #333;
+}
+
+.product-category {
+  color: #007BFF;
+}
+
+.product-price {
+  font-weight: bold;
+  color: #28A745;
+}
+.product-quantity {
+  font-weight: bold;
+  color: #000000;
+}
+
+.list-group-item {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #b1b1b1;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-group-item.active {
+  border: 2px solid black;
+  background-color: white;
+}
